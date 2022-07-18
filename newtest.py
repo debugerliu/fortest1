@@ -13,7 +13,6 @@ class TestClass:
         # 别人远端新增
 
 
-
 if __name__ == '__main__':
     #    pytest.main()
     pytest.main(["newtest.py", '--html=./zzreport.html'])
