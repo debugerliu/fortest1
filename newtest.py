@@ -9,8 +9,11 @@ class TestClass:
     def test_two(self):
         x = "hello"
         assert hasattr(x, "check")
+        print('hello')
 
 
 if __name__ == '__main__':
     #    pytest.main()
     pytest.main(["newtest.py", '--html=./zzreport.html'])
+
+   
