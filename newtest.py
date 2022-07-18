@@ -10,6 +10,7 @@ class TestClass:
         x = "hello"
         assert hasattr(x, "check")
         # 本地修改了
+        # 线上修改
 
 
 if __name__ == '__main__':
