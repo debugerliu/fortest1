@@ -9,9 +9,7 @@ class TestClass:
     def test_two(self):
         x = "hello"
         assert hasattr(x, "check")
-        print('lxw修改的')
-        print('别人修改的2')
-        print('lxw修改2')
+
 
 
 if __name__ == '__main__':
