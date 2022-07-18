@@ -9,6 +9,7 @@ class TestClass:
     def test_two(self):
         x = "hello"
         assert hasattr(x, "check")
+        # 本地修改了
 
 
 if __name__ == '__main__':
