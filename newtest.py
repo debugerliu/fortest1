@@ -7,7 +7,7 @@ class TestClass:
         assert "h" in x
 
     def test_three(self):
-        x = "hello真的本地"
+        x = "lxw远程"
         # 我这里修改了
         assert hasattr(x, "check")
         # 本地修改了
