@@ -6,7 +6,7 @@ class TestClass:
         x = "this"
         assert "h" in x
 
-    def test_two(self):
+    def test_three(self):
         x = "hello"
         # 我这里修改了
         assert hasattr(x, "check")
