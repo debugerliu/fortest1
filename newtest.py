@@ -16,6 +16,9 @@ class TestClass:
     def lzy(self):
         pass
 
+    def lxw(self):
+        pass
+
 
 if __name__ == '__main__':
     #    pytest.main()
