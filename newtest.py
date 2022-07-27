@@ -12,12 +12,6 @@ class TestClass:
         assert hasattr(x, "check")
         # 本地修改了
         # 线上修改
-        
-    def lzy(self):
-        pass
-
-    def lxw(self):
-        pass
 
 
 if __name__ == '__main__':
