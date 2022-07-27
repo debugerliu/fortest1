@@ -13,6 +13,9 @@ class TestClass:
         # 本地修改了
         # 线上修改
 
+    def lxw(self):
+        pass
+
 
 if __name__ == '__main__':
     #    pytest.main()
