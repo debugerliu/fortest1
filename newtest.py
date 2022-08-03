@@ -9,7 +9,7 @@ class TestClass:
     def test_three(self):
         x = "lxw远程2"
         # 我这里修改了
-        assert hasattr(x, "check")
+        assert hasattr(x, "check")111
         # 本地修改了
         # 线上修改
 
