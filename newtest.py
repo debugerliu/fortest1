@@ -7,4 +7,5 @@ import random
 
 list = random.sample([i for i in range(0, 7)], 7)
 print(list)
-# 我是dev分支的
+
+# 我又提交了代码
