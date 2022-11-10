@@ -1,20 +1,9 @@
-import pytest
+# import random
+#
+# list = [random.randint(0, 6) for i in range(6)]
+# print(list)
 
+import random
 
-class TestClass:
-    def test_one(self):
-        x = "this"
-        assert "h" in x
-
-    def test_three(self):
-        x = "lxw本地1"
-        x = "lxw远程2"
-        # 我这里修改了
-        assert hasattr(x, "check")000
-        # 本地修改了
-        # 线上修改
-
-
-if __name__ == '__main__':
-    #    pytest.main()
-    pytest.main(["newtest.py", '--html=./zzreport.html'])
+list = random.sample([i for i in range(0, 7)], 7)
+print(list)
