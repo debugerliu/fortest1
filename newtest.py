@@ -9,3 +9,4 @@ list = random.sample([i for i in range(0, 7)], 7)
 print(list)
 
 # 11.11我在dev分支提交了代码
+# 我在master分支提交了代码
