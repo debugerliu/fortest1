@@ -8,6 +8,4 @@ import random
 list = random.sample([i for i in range(0, 7)], 7)
 print(list)
 
-# 我又提交了代码
-# dev分支提交了代码
-# 我是master的代码
+# 11.11我在dev分支提交了代码
