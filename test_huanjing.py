@@ -3,7 +3,7 @@ import os
 
 import requests
 
-fileName = r'D:\test-automation\E10自动化\接口自动化测试\test_data\account.txt'
+fileName = r'D:\new_test\E10自动化\接口自动化测试\test_data\account.txt'
 content_txt = """自动化团队管理员,147726153626476,a123456,管理员,Awbvgt内部自动化团队
 普通成员,ni1668135531390@eteams.cn,796461,普通成员,1
 普通成员,tc1668135537440@eteams.cn,560020,普通成员2,2
@@ -17,7 +17,7 @@ content_txt = """自动化团队管理员,147726153626476,a123456,管理员,Awbv
 with open(fileName, 'w', encoding='utf8')as file:
     file.write(content_txt)
 
-fileName = r'D:\test-automation\E10自动化\接口自动化测试\conf.ini'
+fileName = r'D:\new_test\E10自动化\接口自动化测试\conf.ini'
 content_txt = """[url]
 baseurl = weapp.yunteams.cn
 """
